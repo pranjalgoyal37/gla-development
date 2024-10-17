@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 70vh;
+  background: url(./img/header.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  height: 20%;
+  display: flex;
+  align-items: center;
+
+  background-color: blueviolet;
+}
+
+.nav-left {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.navbar .nav-item a {
+  text-decoration: none;
+  color: white
+}
+
+header .logo {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo h2 {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  letter-spacing: 8px;
+  word-spacing: 5px;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.section-01 {
+  font-size: 20px;
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+
+.center {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.profile {
+  margin-top: 20px;
+  display: flex;
+}
+
+.profile h4 {
+  text-align: center;
+  margin: 20px;
+}
+
+.profile img {
+  width: 350px;
+  height: 250px;
+}
+
+.profile .desc {
+
+  font-size: 17px;
+  margin: 60px 30px;
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+
+.score .bar {
+  margin: 35px;
+  width: 97%;
+  height: 48px;
+  background-color: #000000;
+
+}
+
+.score .bar .child-bar {
+
+  height: 100%;
+  text-align: center;
+  background-color: rgb(218, 211, 211);
+}
+
+#bar1 {
+  width: 90%;
+}
+
+#bar2 {
+  width: 80%;
+}
+
+#bar3 {
+  width: 70%;
+}
+
+section .gallery {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+section img {
+  width: 250px;
+  height: 200px;
+}
+
+section button {
+  margin: 33px 322px;
+  /* margin: auto; */
+  width: 112px;
+  height: 52px;
+}
+
+.contact {
+  width: 100%;
+  height: 300px;
+  background: url("./img/photography.jpg");
+  background-size: cover;
+
+
+}
